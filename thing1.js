@@ -16,9 +16,9 @@
     const paymentNumber = document.getElementById('paymentNumber');
 
     if (method === 'bkash') {
-      paymentNumber.textContent = '01981302934';
+      paymentNumber.textContent = '01676110991';
     } else if (method === 'nagad') {
-      paymentNumber.textContent = '01988156226';
+      paymentNumber.textContent = '01676110991';
     } else if (method === 'rocket') {
       paymentNumber.textContent = '019XXXXXXXX';
     }
@@ -36,7 +36,7 @@
     const transaction = document.getElementById('transaction').value;
 
     const message = `
-      💳 *New Payment Received! Microstock Theme* 💳
+      💳 *New Payment Received! World Theme* 💳
       👤 Name: ${name}
       📧 Email: ${email}
       📱 Sender Number: ${senderNumber}
